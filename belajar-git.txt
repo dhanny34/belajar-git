@@ -1,1 +1,5 @@
 ini belajar git dari https://www.youtube.com/watch?v=Q3Id0DgcrXY&t=298s
+
+catatan tambahan
+commit ini seperti simpan
+master dan branch akan membedakan kita commit ke cabang baru ato tetap menggunakan master. misal branch ini mau testing fitur baru.
