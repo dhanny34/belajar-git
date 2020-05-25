@@ -1,3 +1,5 @@
 branch ini cabang dari kode utama. misal mau testing fitur baru tapi belum yakin. kalau sudah ok bisa merge dimana branch akan ikut jalur utama
 cara buat pada saat edit bisa pilih ikut master atau brach.
 cara kedua buat branch bisa klik tombol branc-master trus switch branch/tags dan isi nama branch. posisi tombol ada di repo dan dibawah commit
+
+setelah selesai buat ato edit branch ini. commit lagi dengan tombol commit di bagian bawah layar
