@@ -1,0 +1,29 @@
+kalo belum ada install dulu dari https://git-scm.com/
+
+perintah git
+-git add file/files
+-git status
+-git commit
+-git config
+-git branch
+-git help
+
+3 area kerja repo git
+-working tree - folder tempat kerja alias simpan file
+-staging area - ngasi tau git ada perubahan
+-history - setelah di commit perubahan maka pindah dari staging ke history
+staging dan history akan ada di folder .git
+
+
+buat folder menjadi repo git, lakukan perintah git init di folder kerja. nantinya akan muncul folder .git
+
+setelah buat file source code ketik git status akan muncul list file yang belum di tracked alias belum di commit untuk masuk ke stagging area
+git add nama file tersebut akan menambah file tersebut ke dalam staging.
+ketik git status akan ada info file yang akan di commit
+
+untuk commit perlu profile yang terpasang. cara pasang profil/akun bisa dengan git config
+git config --global user.name "Dhanny Perdana"
+git config --global user.email "Dhanny@Perdana"
+
+untuk commit dan menambah pesan bisa seperti berikut
+git commit -m "menambah file index.html"
