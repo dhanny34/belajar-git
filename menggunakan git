@@ -19,6 +19,7 @@ buat folder menjadi repo git, lakukan perintah git init di folder kerja. nantiny
 
 setelah buat file source code ketik git status akan muncul list file yang belum di tracked alias belum di commit untuk masuk ke stagging area
 git add nama file tersebut akan menambah file tersebut ke dalam staging.
+git add index.html kalau mau semua file di dalam folder git add .
 ketik git status akan ada info file yang akan di commit
 
 untuk commit perlu profile yang terpasang. cara pasang profil/akun bisa dengan git config
@@ -27,3 +28,12 @@ git config --global user.email "Dhanny@Perdana"
 
 untuk commit dan menambah pesan bisa seperti berikut
 git commit -m "menambah file index.html"
+
+git log 3 akan menampilkan 3 terakhir
+git log -- style.css mencari yang berhubungan dengan file style.css
+
+git checkout, kembali ke commmit yang dipilih, 5 digit pertama dari has commit. jika tambah nama file maka akan balikin file itu saja
+git checkout 6cec1 -- style.css
+sampai perintah diatas, masuk ke staging. commit dulu untuk simpan
+
+akhir #5 BEKERJA DENGAN GIT
